@@ -1,9 +1,8 @@
-from landlab import Component
+from landlab.core.model_component import Component
 from landlab.grid.network import NetworkModelGrid
 
 
 class SedimentPulserBase(Component):
-
     """Base class of :class:`~.SedimentPulserAtLinks` and :class:`~.SedimentPulserEachParcel`.
 
     :class:`~.SedimentPulserAtLinks` and :class:`~.SedimentPulserEachParcel` run the
